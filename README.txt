@@ -1,16 +1,13 @@
-Start:
-1. ZIP entpacken.
-2. index.html doppelklicken.
+Version 7.1 Stabilitätsfix
 
-Version 7:
-- Challenge kann manuell gestartet werden.
-- Startdatum, Startgewicht und Zielgewicht frei wählbar.
-- Challenge zurücksetzen löscht KEINE Gewichtseinträge.
-- Separater Button 'Alle Daten löschen' löscht wirklich alles.
-- Fortschritt Richtung Zielgewicht mit Zielbalken.
-- Kalenderexport aus V6 bleibt: Punkt-Erinnerungen + Erinnerungen.
-- Backup Export/Import bleibt erhalten.
+- Speichern komplett neu aufgebaut.
+- Plan, Gewicht, Häkchen und Challenge werden stabil in Local Storage gespeichert.
+- Morgen neuer Tag: App nutzt automatisch das aktuelle Datum.
+- Challenge zurücksetzen löscht keine Gewichtsdaten.
+- Alle Daten löschen löscht wirklich alles.
+- Backup Export/Import bleibt drin.
+- Kalenderexport bleibt drin.
 
-GitHub Update:
-Im bestehenden Repository diese Dateien ersetzen/hochladen:
-index.html, style.css, app.js, manifest.json, README.txt
+GitHub:
+index.html, style.css, app.js, manifest.json und README.txt hochladen/ersetzen.
+Danach Strg+F5.
