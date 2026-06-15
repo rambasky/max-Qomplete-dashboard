@@ -1,0 +1,9 @@
+{
+  "name": "Max Qomplete Dashboard",
+  "short_name": "Qomplete",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#101511",
+  "theme_color": "#101511",
+  "description": "Max Qomplete 90-Tage Dashboard"
+}

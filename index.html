@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Max Qomplete Dashboard</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#101511" />
 </head>
 <body>
   <main class="app">
@@ -16,6 +18,9 @@
       <div class="hero-actions">
         <button id="calendarBtn" class="ghost">Kalender öffnen</button>
         <button id="icsBtn" class="ghost">Kalenderdatei</button>
+        <button id="exportBtn" class="ghost">Backup</button>
+        <button id="importBtn" class="ghost">Import</button>
+        <input id="importFile" type="file" accept="application/json" style="display:none">
         <button id="badDayBtn" class="ghost">Schlechter Tag</button>
       </div>
     </header>
@@ -95,7 +100,7 @@
 
       <div class="card">
         <h2>Kalender-Vorschau</h2>
-        <p class="hint">Wird aus deinem Plan oben automatisch sortiert.</p>
+        <p class="hint">Punkt-Erinnerungen ohne Zeitblock. Training/Review mit Dauer.</p>
         <div class="calendar-list" id="calendarPreview"></div>
       </div>
     </section>
