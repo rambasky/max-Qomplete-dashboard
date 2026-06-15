@@ -19,3 +19,12 @@ table{width:100%;border-collapse:collapse;margin-top:14px;font-size:14px}th,td{p
 @media(max-width:900px){.top,.two,.form-grid,.routine-grid,.week-grid{grid-template-columns:1fr}.hero,.section-head{align-items:flex-start;gap:12px;flex-direction:column}.timeline div,.calendar-list div{grid-template-columns:1fr}h1{font-size:28px}}
 
 .timeline div:first-child,.calendar-list div:first-child{border:1px solid rgba(215,181,109,.25)}
+
+.danger{background:rgba(212,106,106,.18);color:#ffd7d7;border:1px solid rgba(212,106,106,.35)}
+.challenge-settings{margin-top:16px}
+.challenge-progress{display:grid;grid-template-columns:1fr 1fr 2fr;gap:12px;margin-top:16px}
+.challenge-progress div{background:#111711;border-radius:14px;padding:12px}
+.challenge-progress b{display:block;color:var(--accent);margin-bottom:6px}
+.challenge-progress span{color:var(--muted)}
+.challenge-progress .wide{min-width:0}
+@media(max-width:900px){.challenge-progress{grid-template-columns:1fr}}

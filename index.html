@@ -32,6 +32,30 @@
       <div class="card"><span>Challenge</span><strong id="dayCount">Tag 1 / 90</strong><small id="remainingDays">89 Tage übrig</small></div>
     </section>
 
+    <section class="card challenge-settings">
+      <div class="section-head">
+        <div>
+          <h2>Challenge einstellen</h2>
+          <p class="hint">Hier legst du fest, wann deine echten 90 Tage starten. Testdaten bleiben erhalten.</p>
+        </div>
+        <div class="hero-actions">
+          <button id="startChallengeBtn" class="primary">Challenge starten</button>
+          <button id="resetChallengeBtn" class="ghost">Challenge zurücksetzen</button>
+          <button id="deleteAllBtn" class="danger">Alle Daten löschen</button>
+        </div>
+      </div>
+      <div class="routine-grid">
+        <label>Startdatum <input id="challengeStartDate" type="date"></label>
+        <label>Startgewicht kg <input id="challengeStartWeight" type="number" step="0.1" placeholder="z.B. 128.0"></label>
+        <label>Zielgewicht kg <input id="challengeTargetWeight" type="number" step="0.1" placeholder="z.B. 95.0"></label>
+      </div>
+      <div class="challenge-progress">
+        <div><b>Status</b><span id="challengeStatus">Noch nicht gestartet</span></div>
+        <div><b>Fortschritt</b><span id="weightProgressText">–</span></div>
+        <div class="wide"><b>Zielbalken</b><div class="bar"><div id="weightProgressBar"></div></div></div>
+      </div>
+    </section>
+
     <section class="grid two">
       <div class="card">
         <h2>Morgen-Check</h2>

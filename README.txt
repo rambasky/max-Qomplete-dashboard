@@ -2,13 +2,15 @@ Start:
 1. ZIP entpacken.
 2. index.html doppelklicken.
 
-Version 6:
-- Kalenderexport mit Erinnerungen.
-- Routineaufgaben sind Punkt-Erinnerungen ohne sichtbaren Zeitblock.
-- Krafttraining bleibt Termin mit Dauer.
-- Wochenreview bleibt kurzer Termin.
-- Mounjaro ist Punkt-Erinnerung.
-- Backup Export/Import für gespeicherte Daten.
+Version 7:
+- Challenge kann manuell gestartet werden.
+- Startdatum, Startgewicht und Zielgewicht frei wählbar.
+- Challenge zurücksetzen löscht KEINE Gewichtseinträge.
+- Separater Button 'Alle Daten löschen' löscht wirklich alles.
+- Fortschritt Richtung Zielgewicht mit Zielbalken.
+- Kalenderexport aus V6 bleibt: Punkt-Erinnerungen + Erinnerungen.
+- Backup Export/Import bleibt erhalten.
 
 GitHub Update:
-Im bestehenden Repository einfach index.html, style.css, app.js, manifest.json und README.txt ersetzen.
+Im bestehenden Repository diese Dateien ersetzen/hochladen:
+index.html, style.css, app.js, manifest.json, README.txt
